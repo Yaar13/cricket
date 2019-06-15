@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E5BDE0B22B5599E00BF11D3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5BDE0A22B5599E00BF11D3 /* Person.swift */; };
+		5E5BDE0D22B559AF00BF11D3 /* team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5BDE0C22B559AF00BF11D3 /* team.swift */; };
+		5E5BDE0F22B559C700BF11D3 /* tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5BDE0E22B559C700BF11D3 /* tournament.swift */; };
 		5EBCA53322B1DA8E009140EB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBCA53222B1DA8E009140EB /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5E5BDE0A22B5599E00BF11D3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5E5BDE0C22B559AF00BF11D3 /* team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = team.swift; sourceTree = "<group>"; };
+		5E5BDE0E22B559C700BF11D3 /* tournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tournament.swift; sourceTree = "<group>"; };
 		5EBCA52F22B1DA8E009140EB /* Cricstar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cricstar; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EBCA53222B1DA8E009140EB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				5EBCA53222B1DA8E009140EB /* main.swift */,
+				5E5BDE0A22B5599E00BF11D3 /* Person.swift */,
+				5E5BDE0C22B559AF00BF11D3 /* team.swift */,
+				5E5BDE0E22B559C700BF11D3 /* tournament.swift */,
 			);
 			path = Cricstar;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5BDE0F22B559C700BF11D3 /* tournament.swift in Sources */,
+				5E5BDE0B22B5599E00BF11D3 /* Person.swift in Sources */,
 				5EBCA53322B1DA8E009140EB /* main.swift in Sources */,
+				5E5BDE0D22B559AF00BF11D3 /* team.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
